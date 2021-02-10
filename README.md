@@ -14,6 +14,7 @@
 4. And another item.
 
 [I'm an inline-style link](https://www.google.com)
+[Me too](https://www.google.com)
 
 ``` vhdl
 git status
