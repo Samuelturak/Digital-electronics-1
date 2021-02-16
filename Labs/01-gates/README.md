@@ -44,7 +44,7 @@ begin
 end architecture dataflow;
 ```
 
-![alt text](Digital-electronics-1/Labs/01-gates/Screenshots/DeMorgan.png "DeMorgan.png")
+![alt text](Digital-electronics-1/Labs/01-gates/Screenshots/DeMorgan.png)
 
 [EDA playground link](https://www.edaplayground.com/x/8LxB)
 
@@ -94,7 +94,7 @@ begin
 
 end architecture dataflow;
 ```
-![alt text](Digital-electronics-1/Labs/01-gates/Screenshots/Distrib.png "Distrib.png")
+![alt text](Digital-electronics-1/Labs/01-gates/Screenshots/Distrib.png)
 
 [EDA playground link](https://www.edaplayground.com/x/TCJ6)
 
