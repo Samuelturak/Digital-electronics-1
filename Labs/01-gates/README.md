@@ -1,5 +1,3 @@
-![](Digital-electronics-1\Labs\01-gates\Screenshots\DeMorgan.png "DeMorgan.png")
-
 [EDA playground link](https://www.edaplayground.com/x/8LxB) 
 
 ``` vhdl
@@ -30,6 +28,7 @@ begin
     fxor_o <= not(b_i or not a_i) or not(c_i or b_i);
 
 end architecture dataflow;
-``` vhdl
+
+![](Labs\01-gates\Screenshots\DeMorgan.png "DeMorgan.png")
 
 
