@@ -1,5 +1,4 @@
 ``` vhdl
-
 library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
 
@@ -27,7 +26,6 @@ begin
     fxor_o <= not(b_i or not a_i) or not(c_i or b_i);
 
 end architecture dataflow;
-
 ``` vhdl
 
-![alt text](C:\Users\samue\Documents\GitHub\Digital-electronics-1\Labs\01-gates\Screenshots\DeMorgan.png "DeMorgan.png")
+![](Digital-electronics-1\Labs\01-gates\Screenshots\DeMorgan.png "DeMorgan.png")
