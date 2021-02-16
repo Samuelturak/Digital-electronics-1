@@ -1,3 +1,16 @@
+c | b | a | f(c,b,a)
+------------ | ------------- | ------------- | -------------
+0 | 0 | 0 | 1
+0 | 0 | 1 | 1
+0 | 1 | 0 | 0
+0 | 1 | 1 | 0
+1 | 0 | 0 | 0
+1 | 0 | 1 | 1
+1 | 1 | 0 | 0
+1 | 1 | 1 | 0
+
+
+
 [EDA playground link](https://www.edaplayground.com/x/8LxB) 
 
 ``` vhdl
@@ -30,6 +43,6 @@ begin
 end architecture dataflow;
 ```
 
-![](Labs\01-gates\Screenshots\DeMorgan.png "DeMorgan.png")
+![alt text](Labs\01-gates\Screenshots\DeMorgan.png "DeMorgan.png")
 
 
