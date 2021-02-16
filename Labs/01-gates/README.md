@@ -1,3 +1,5 @@
+![](Digital-electronics-1\Labs\01-gates\Screenshots\DeMorgan.png "DeMorgan.png")
+
 ``` vhdl
 library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
@@ -28,4 +30,4 @@ begin
 end architecture dataflow;
 ``` vhdl
 
-![](Digital-electronics-1\Labs\01-gates\Screenshots\DeMorgan.png "DeMorgan.png")
+
