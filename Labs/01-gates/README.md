@@ -13,10 +13,7 @@ c | b | a | f(c,b,a)
 1 | 1 | 0 | 0
 1 | 1 | 1 | 0
 
-
-
-[EDA playground link](https://www.edaplayground.com/x/8LxB) 
-
+ 
 ``` vhdl
 library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
@@ -47,10 +44,13 @@ begin
 end architecture dataflow;
 ```
 
-![alt text](Screenshots\DeMorgan.png "DeMorgan.png")
+![alt text](Digital-electronics-1/Labs/01-gates/Screenshots/DeMorgan.png "DeMorgan.png")
+
+[EDA playground link](https://www.edaplayground.com/x/8LxB)
 
 
 # Distributive law
+
 
 ``` vhdl
 ------------------------------------------------------------------------
@@ -94,7 +94,7 @@ begin
 
 end architecture dataflow;
 ```
-![alt text](Screenshots\Distrib.png "Distrib.png")
+![alt text](Digital-electronics-1/Labs/01-gates/Screenshots/Distrib.png "Distrib.png")
 
 [EDA playground link](https://www.edaplayground.com/x/TCJ6)
 
