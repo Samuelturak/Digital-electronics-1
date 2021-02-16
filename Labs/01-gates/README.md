@@ -1,5 +1,7 @@
 ![](Digital-electronics-1\Labs\01-gates\Screenshots\DeMorgan.png "DeMorgan.png")
 
+[EDA playground link](https://www.edaplayground.com/x/8LxB) 
+
 ``` vhdl
 library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
