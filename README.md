@@ -1,11 +1,11 @@
 # Digital-electronics-1
 
-## header
+## Texts
 
 **This is bold text**
-
 *This text is italicized*
 
+## Lists
 1. First ordered list item
 2. Another item
 ⋅⋅* Unordered sub-list. 
