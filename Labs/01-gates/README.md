@@ -28,6 +28,7 @@ begin
     fxor_o <= not(b_i or not a_i) or not(c_i or b_i);
 
 end architecture dataflow;
+```
 
 ![](Labs\01-gates\Screenshots\DeMorgan.png "DeMorgan.png")
 
