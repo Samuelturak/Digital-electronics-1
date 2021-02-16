@@ -94,7 +94,7 @@ begin
 
 end architecture dataflow;
 ```
-![alt text](Digital-electronics-1/Labs/01-gates/Screenshots/Distrib.png)
+![alt text](Screenshots/Distrib.png)
 
 [EDA playground link](https://www.edaplayground.com/x/TCJ6)
 
