@@ -82,6 +82,12 @@ The K-map for the "equals" function is as follows:
 
 ![Karnaugh map for "equals" function](Images/kmap_equals.png)
 
+:-: | :-: | :-: | A1 | A0 | :-: |
+:-: | :-: | 00 | 01 | 11 | 10 |
+:-: | 00 | 1 | 0 | 0 | 0 |
+ B1 | 01 | 0 | 1 | 0 | 0 |
+ B0 | 11 | 0 | 0 | 1 | 0 |
+:-: | 10 | 0 | 0 | 0 | 1 |
 
 Create K-maps for other two functions.
 
