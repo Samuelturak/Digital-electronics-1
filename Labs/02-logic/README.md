@@ -34,6 +34,8 @@ The purpose of this laboratory exercise is to learn to use different ways of wri
 
 According to the truth table, write canonical SoP (Sum of Products) and PoS (Product of Sums) forms for "equals" and "less than" functions:
 
+(b0+b1+a0+a1).(b0+\overline{b1}+a0+a1).(b0+\overline{b1}+a0+\overline{a1}).(\overline{b0}+b1+a0+a1).(\overline{b0}+b1+a0+\overline{a1}).(\overline{b0}+b1+\overline{a0}+a1).(\overline{b0}+\overline{b1}+a0+a1).(\overline{b0}+\overline{b1}+a0+\overline{a1}).(\overline{b0}+\overline{b1}+\overline{a0}+a1).(\overline{b0}+\overline{b1}+\overline{a0}+\overline{a1})
+
 ![Binary comparator functions](Images/comparator.png)
 
 
