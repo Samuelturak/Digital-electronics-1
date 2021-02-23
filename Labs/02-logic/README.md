@@ -36,6 +36,7 @@ According to the truth table, write canonical SoP (Sum of Products) and PoS (Pro
 
 ![Binary comparator functions](Images/comparator.png)
 
+![alt text](Images/equals.png)
 
 ## Part 1: Synchronize Git and create a new folder
 
