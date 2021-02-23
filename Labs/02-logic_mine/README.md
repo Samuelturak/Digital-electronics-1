@@ -275,4 +275,7 @@ begin
 end architecture testbench;
 ```
 
+### Reported Error
+
+![alt text](Images/Error.png)
 
