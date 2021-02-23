@@ -72,7 +72,7 @@
 
 ### design file
 
-``` vhdl ```
+``` vhdl 
 ------------------------------------------------------------------------
 --
 -- Example of 2-bit binary comparator using the when/else assignment.
