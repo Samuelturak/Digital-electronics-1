@@ -83,6 +83,7 @@ The K-map for the "equals" function is as follows:
 ![Karnaugh map for "equals" function](Images/kmap_equals.png)
 
 |           |           |         |  **A1**  |     **A0**      |           |
+| :-:       | :-:       | :-:     | :-:         | :-:       | :-:       | 
 |           |           | ***0 0*** | ***0 1***     | ***1 1***   | ***1 0***   | 
 |           | ***0 0***  | **1**   | 0           | 0         | 0         | 
 | **B1,B0** |  ***0 1***  | 0       | **1**       | 0         |  0        |
