@@ -70,16 +70,16 @@ p_stimulus : process
 
 ## Creating a project
 
-After launching Vivado we click on "Create Project"
+After launching Vivado we click on "Create Project":
 
 ![alt text](Images/Guide1.PNG)
 
-In the next step, we choose the project name and the project location
+In the next step, we choose the project name and the project location:
 
 ![alt text](Images/Guide2.PNG)
 
 In the Project type window we choose "RTL Project" and proceed unopposed, until the "add sources" window:
-We can add a source here or we can do it later.
+(We can add a source here or we can do it later)
 
 ![alt text](Images/Guide4.PNG)
 
@@ -91,7 +91,7 @@ And then nothing is in our way to finish the project creation.
 
 ## Adding sources 
 
-We press on File on the top left and go to "add sources"
+We press on "File" on the top left and go to "add sources":
 
 ![alt text](Images/Guide6.PNG)
 
@@ -100,5 +100,7 @@ We make sure that the testbench won't have the same name as its design source (w
 
 ![alt text](Images/Guide8.PNG)
 
-After our simulation is ready to go, we can go on the top left to: Flow/Run Simulation/Run Behavioral Simulation 
+## Starting the simulation
+
+After our simulation is ready to go, we can start the simulation by going to the top left to: Flow/Run Simulation/Run Behavioral Simulation. 
 
