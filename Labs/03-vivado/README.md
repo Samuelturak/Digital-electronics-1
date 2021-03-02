@@ -1,7 +1,28 @@
+# Part 1 
+
+| **Switches** | **Connection** | **Rezistor (10kΩ)** | 
+| :-: | :-: | :-: |
+| SW0 | J15 | R35 |
+| SW1 | L16 | R37 |
+| SW2 | M13 | R38 |
+| SW3 | R15 | R40 |
+| SW4 | R17 | R42 |
+| SW5 | T18 | R43 | 
+| SW6 | U18 | R46 | 
+| SW7 | R13 | R48 | 
+| SW8 | T8 | R56 | 
+| SW9 | U8 | R58 | 
+| SW10 | R16 | R64 | 
+| SW11 | T13 | R66 | 
+| SW12 | H6 | R68 | 
+| SW13 | U12 | R69 | 
+| SW14 | U11 | R71 | 
+| SW15 | V10 | R73 | 
+
 
 # Part 2
 
-###Architecture
+### Architecture
 
 ```vhdl
 
