@@ -43,4 +43,4 @@ p_stimulus : process
 ```
 ### Screenshot
 
-![alt text](Images/Screenshot.png)
+![alt text](Images/Screenshot.PNG)
