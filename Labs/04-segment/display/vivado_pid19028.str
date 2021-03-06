@@ -407,3 +407,224 @@ selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); //
 // HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 80 MB. Current time: 3/6/21, 3:48:20 PM CET
 // TclEventType: WAVEFORM_UPDATE_WAVEFORM
 // TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 80 MB. Current time: 3/6/21, 4:18:21 PM CET
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 2702 seconds
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_hex_7seg_behav.wcfg"); // w
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - tb_hex_7seg", "DesignTask.SIMULATION");
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Close : addNotify
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+dismissDialog("Confirm Close"); // A
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bz
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hex_7seg.vhd", 1); // m
+// Elapsed time: 132 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 0); // m
+// Elapsed time: 69 seconds
+selectCodeEditor("tb_hex_7seg.vhd", 76, 262); // bP
+typeControlKey((HResource) null, "tb_hex_7seg.vhd", 'c'); // bP
+selectCodeEditor("tb_hex_7seg.vhd", 380, 265); // bP
+typeControlKey((HResource) null, "tb_hex_7seg.vhd", 'v'); // bP
+typeControlKey((HResource) null, "tb_hex_7seg.vhd", 'v'); // bP
+selectCodeEditor("tb_hex_7seg.vhd", 93, 311); // bP
+selectCodeEditor("tb_hex_7seg.vhd", 101, 350); // bP
+selectCodeEditor("tb_hex_7seg.vhd", 198, 305); // bP
+selectCodeEditor("tb_hex_7seg.vhd", 196, 350); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 132 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/display.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_hex_7seg' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/display.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj tb_hex_7seg_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'tb_hex_7seg' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/display.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto c29b82f1943d4395ad3fa81c6cf2a839 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_hex_7seg_behav xil_defaultlib.tb_hex_7seg -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/display.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_hex_7seg_behav -key {Behavioral:sim_1:Functional:tb_hex_7seg} -tclbatch {tb_hex_7seg.tcl} -view {C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/tb_hex_7seg_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 80 MB. Current time: 3/6/21, 4:39:18 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: open_wave_config C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/tb_hex_7seg_behav.wcfg 
+// Tcl Message: source tb_hex_7seg.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: Note: Stimulus process started Time: 0 ps  Iteration: 0  Process: /tb_hex_7seg/p_stimulus  File: C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd Note: Stimulus process finished Time: 600 ns  Iteration: 0  Process: /tb_hex_7seg/p_stimulus  File: C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_hex_7seg_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.625 ; gain = 0.000 
+// 'd' command handler elapsed time: 6 seconds
+dismissDialog("Run Simulation"); // e
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 80 MB. Current time: 3/6/21, 4:39:21 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 81 MB. Current time: 3/6/21, 4:41:34 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 135 seconds
+selectMenu("Waveform Style"); // ah
+selectMenu("Signal Color"); // ah
+selectMenu("Radix"); // ah
+selectMenuItem((HResource) null, "Default"); // Y
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 59 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 81 MB. Current time: 3/6/21, 4:42:37 PM CET
+selectMenu("Waveform Style"); // ah
+selectMenu("Signal Color"); // ah
+selectMenu("Radix"); // ah
+selectMenu("Radix"); // ah
+selectMenuItem((HResource) null, "Binary"); // Y
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hex_7seg.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg_behav.wcfg*", 2); // m
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hex_7seg.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg.vhd", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_hex_7seg_behav.wcfg*", 2); // m
+// Elapsed time: 52 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - tb_hex_7seg", "DesignTask.SIMULATION");
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// bz (cr):  Close : addNotify
+selectButton("OptionPane.button", "Save"); // JButton
+// Tcl Message: save_wave_config {C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/tb_hex_7seg_behav.wcfg} 
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bz
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("tb_hex_7seg.vhd", 307, 328); // bP
+selectCodeEditor("tb_hex_7seg.vhd", 440, 270); // bP
+selectCodeEditor("tb_hex_7seg.vhd", 33, 75); // bP
+typeControlKey((HResource) null, "tb_hex_7seg.vhd", 'c'); // bP
+// Elapsed time: 54 seconds
+selectCodeEditor("tb_hex_7seg.vhd", 436, 102); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hex_7seg.vhd", 1); // m
+// Elapsed time: 219 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top1(Behavioral) (top1.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top1(Behavioral) (top1.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top1(Behavioral) (top1.vhd)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top1(Behavioral) (top1.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top1(Behavioral) (top1.vhd), hex2seg : hex_7seg(Behavioral) (hex_7seg.vhd)]", 2, false, false, false, false, false, true); // D - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top1.vhd", 2); // m
+// Elapsed time: 49 seconds
+selectCodeEditor("top1.vhd", 306, 290); // bP
+selectCodeEditor("top1.vhd", 423, 232); // bP
+// Elapsed time: 41 seconds
+selectCodeEditor("top1.vhd", 148, 329); // bP
+selectCodeEditor("top1.vhd", 214, 158); // bP
+selectCodeEditor("top1.vhd", 143, 323); // bP
+typeControlKey((HResource) null, "top1.vhd", 'c'); // bP
+selectCodeEditor("top1.vhd", 269, 242); // bP
+// Elapsed time: 171 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys A7-50T.xdc]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys A7-50T.xdc]", 5, false, false, false, false, false, true); // D - Double Click
+// Elapsed time: 154 seconds
+selectCodeEditor("Nexys A7-50T.xdc", 90, 97); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 95, 117); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 104, 136); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 108, 158); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 107, 176); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 108, 193); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 110, 218); // bP
+// Elapsed time: 235 seconds
+selectCodeEditor("Nexys A7-50T.xdc", 158, 110); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 157, 131); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 160, 156); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 158, 182); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 161, 201); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 161, 225); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 167, 254); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 176, 273); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 139, 179); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 145, 205); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 150, 225); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 151, 245); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 152, 261); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 159, 287); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 163, 307); // bP
+selectCodeEditor("Nexys A7-50T.xdc", 172, 330); // bP
+// Elapsed time: 47 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top1(Behavioral) (top1.vhd)]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top1(Behavioral) (top1.vhd)]", 1); // D
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 79 MB. Current time: 3/6/21, 5:12:37 PM CET

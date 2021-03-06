@@ -20,3 +20,9 @@ close_sim
 launch_simulation
 open_wave_config C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/tb_hex_7seg_behav.wcfg
 source tb_hex_7seg.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/tb_hex_7seg_behav.wcfg
+source tb_hex_7seg.tcl
+save_wave_config {C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/tb_hex_7seg_behav.wcfg}
+close_sim
