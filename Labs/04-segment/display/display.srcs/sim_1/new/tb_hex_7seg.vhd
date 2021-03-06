@@ -54,6 +54,10 @@ begin
          
          s_hex <= "0011"; wait for 100ns;
          
+         s_hex <= "0100"; wait for 100ns;
+          
+         s_hex <= "0101"; wait for 100ns;
+         
         
         
         -- Report a note at the end of stimulus process
