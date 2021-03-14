@@ -2,13 +2,19 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Wed Mar 10 14:20:17 2021
-# Process ID: 36288
+# Start of session at: Tue Mar  9 10:00:21 2021
+# Process ID: 26020
 # Current directory: C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36636 C:\Users\samue\Documents\GitHub\Digital-electronics-1\Labs\04-segment\display\display.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18708 C:\Users\samue\Documents\GitHub\Digital-electronics-1\Labs\04-segment\display\display.xpr
 # Log file: C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/vivado.log
 # Journal file: C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/04-segment/display/display.xpr
 update_compile_order -fileset sources_1
+launch_simulation
+source tb_top.tcl
+close_sim
+launch_simulation
+source tb_top.tcl
+close_sim
