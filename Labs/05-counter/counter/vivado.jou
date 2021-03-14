@@ -20,3 +20,7 @@ source tb_cnt_up_down.tcl
 close_sim
 launch_simulation
 source tb_cnt_up_down.tcl
+close_sim
+launch_simulation
+source tb_cnt_up_down.tcl
+close_sim
