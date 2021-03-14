@@ -145,7 +145,7 @@ p_reset_gen : process
 
 ![alt text](Images/Capture.PNG)
 
-![alt text](Images/Captuire2.PNG)
+![alt text](Images/Capture2.PNG)
 
 # Task 3
 
