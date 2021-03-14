@@ -99,6 +99,7 @@ begin
     cnt_o <= std_logic_vector(s_cnt_local);
 
 end architecture behavioral;
+```
 
 ## reset and stimulus processes from testbench file
 
