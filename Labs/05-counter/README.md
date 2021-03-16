@@ -213,4 +213,4 @@ end architecture Behavioral;
 ```
 ## Scheme
 
-![alt text](Images/scheme.png)
+![alt text](Images/scheme.jpg)
