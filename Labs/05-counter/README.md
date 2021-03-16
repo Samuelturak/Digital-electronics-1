@@ -2,6 +2,8 @@
 
 ##  Connection of push buttons
 
+When the button is pressed, 3,3V the given pin gets 3,3V as input voltage. When the button is released, no voltage goes to the pin.
+
 | **Button** | **Pin** |
 | :-: | :-: |
 | BTNL | P17 |
@@ -9,7 +11,6 @@
 | BTNU | M18  |
 | BRND | P18 |
 | BTNC | N17 |
-
 
 ## Calculated values 
 
@@ -210,4 +211,6 @@ begin
 
 end architecture Behavioral;
 ```
+## Scheme
 
+![alt text](Images/scheme.jpg)
