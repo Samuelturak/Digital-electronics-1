@@ -44,4 +44,4 @@ p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
 
 ## Screenshot
 
-![alt text](Images/graph.png)
+![alt text](Images/graph.PNG)
