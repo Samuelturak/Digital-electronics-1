@@ -1838,3 +1838,9 @@ selectCodeEditor("driver_7seg_4digits.vhd", 305, 372); // bP
 selectCodeEditor("driver_7seg_4digits.vhd", 482, 368); // bP
 selectCodeEditor("driver_7seg_4digits.vhd", 324, 371); // bP
 selectCodeEditor("driver_7seg_4digits.vhd", 511, 371); // bP
+// Elapsed time: 631 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 0); // m
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "driver_7seg_4digits.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_driver_7seg_4digits.vhd", 1); // m
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 76 MB. Current time: 3/23/21, 8:02:12 PM CET
