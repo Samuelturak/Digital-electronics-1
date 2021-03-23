@@ -2,7 +2,7 @@
 
 ![alt text](Images/wavedrom.png)
 
-# Display driver
+# 2. Display driver
 
 ## process p_mux
 
@@ -93,3 +93,6 @@ begin
     AN(7 downto 4) <= b"1111";    
 end Behavioral;
 ```
+# 3. Eight-digit driver
+
+![alt text](Images/scheme.jpg)

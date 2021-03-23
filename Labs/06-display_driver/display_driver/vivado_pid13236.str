@@ -1404,3 +1404,437 @@ maximizeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_beha
 // TclEventType: WAVEFORM_UPDATE_WAVEFORM
 // Elapsed time: 195 seconds
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_driver_7seg_4digits.vhd", 1); // m
+// Elapsed time: 1144 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 0); // m
+// Elapsed time: 186 seconds
+selectCodeEditor("top.vhd", 419, 330); // bP
+selectCodeEditor("top.vhd", 382, 376); // bP
+// Elapsed time: 46 seconds
+selectCodeEditor("top.vhd", 271, 438); // bP
+selectCodeEditor("top.vhd", 271, 438, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("top.vhd", 364, 444); // bP
+// Elapsed time: 78 seconds
+selectButton(RDIResource.HCodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // x: TRUE
+selectButton(RDIResource.HCodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // x: FALSE
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // E
+typeControlKey(null, null, 'z');
+selectCodeEditor("top.vhd", 321, 312); // bP
+selectButton(RDIResource.HCodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // x: TRUE
+selectCodeEditor("top.vhd", 109, 121); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+selectCodeEditor("top.vhd", 108, 225); // bP
+typeControlKey((HResource) null, "top.vhd", 'v'); // bP
+selectCodeEditor("top.vhd", 153, 225); // bP
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 18 seconds
+selectCodeEditor("top.vhd", 194, 328); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 80 MB. Current time: 3/23/21, 5:32:09 PM CET
+// Elapsed time: 129 seconds
+selectCodeEditor("top.vhd", 2, 392); // bP
+selectCodeEditor("top.vhd", 504, 287); // bP
+selectButton(RDIResource.HCodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // x: FALSE
+selectCodeEditor("top.vhd", 0, 305); // bP
+selectCodeEditor("top.vhd", 44, 265); // bP
+selectCodeEditor("top.vhd", 2, 261); // bP
+typeControlKey((HResource) null, "top.vhd", 'c'); // bP
+// Elapsed time: 294 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 211, 846); // nWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 423, 974); // nWaveform: addNotify
+dockFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_behav.wcfg"); // az
+maximizeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_behav.wcfg"); // az
+// RDIResource.RDIViews_WAVEFORM_VIEWER: tb_driver_7seg_4digits_behav.wcfg: dock view
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 78 MB. Current time: 3/23/21, 5:37:56 PM CET
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - tb_driver_7seg_4digits", "DesignTask.SIMULATION");
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// c (cr): Save Simulation Sources: addNotify
+dismissDialog("Confirm Close"); // A
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: DG_GRAPH_STALE
+// bz (cr):  Close : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+dismissDialog("Save Simulation Sources"); // c
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1173.063 ; gain = 0.000 
+dismissDialog("Close"); // bz
+// Elapsed time: 363 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_driver_7seg_4digits.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 0); // m
+selectCodeEditor("top.vhd", 301, 263); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_driver_7seg_4digits.vhd", 1); // m
+// Elapsed time: 673 seconds
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 317, 325); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 235, 131); // bP
+// WARNING: HEventQueue.dispatchEvent() is taking  1082 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 73 MB. Current time: 3/23/21, 6:08:00 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 73 MB. Current time: 3/23/21, 6:38:01 PM CET
+// Elapsed time: 3530 seconds
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 187, 115); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 199, 115); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 77, 330); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 334, 377); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 235, 399); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 98, 328); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 70, 324); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 209, 262); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 310, 366); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 321, 330); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 254, 397); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 79, 105); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 328, 428); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 274, 384); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 286, 394); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 68, 95); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 394, 441); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 237, 282); // bP
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 297, 381); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 73 MB. Current time: 3/23/21, 7:08:01 PM CET
+// Elapsed time: 859 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 0); // m
+selectCodeEditor("top.vhd", 179, 274); // bP
+selectCodeEditor("top.vhd", 203, 366); // bP
+selectCodeEditor("top.vhd", 284, 416); // bP
+selectCodeEditor("top.vhd", 303, 282); // bP
+// Elapsed time: 510 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_driver_7seg_4digits.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "driver_7seg_4digits.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_driver_7seg_4digits.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "driver_7seg_4digits.vhd", 2); // m
+selectCodeEditor("driver_7seg_4digits.vhd", 77, 92); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 72, 92); // bP
+// Elapsed time: 18 seconds
+selectCodeEditor("driver_7seg_4digits.vhd", 45, 153); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 34, 158); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 140, 159); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 231, 218); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 243, 213); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 223, 219); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 234, 219); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 313, 219); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 225, 226); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 226, 226, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("driver_7seg_4digits.vhd", 374, 230); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 230, 220); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 317, 240); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 222, 320); // bP
+// Elapsed time: 651 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a
+selectButton(PAResourceQtoS.SaveProjectUtils_CANCEL, "Cancel"); // a
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Save Project"); // am
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_driver_7seg_4digits.vhd", 1); // m
+selectCodeEditor("tb_driver_7seg_4digits.vhd", 182, 129); // bP
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// am (cr): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_DONT_SAVE, "Don't Save"); // a
+// e (cr):  Run Simulation : addNotify
+dismissDialog("Save Project"); // am
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_4digits' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 88a4e527f47148b78d299575ef4db92a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log" 
+// Tcl Message:  ****** Webtalk v2020.2 (64-bit)   **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020   **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xsim.dir/tb_driver_7seg_4digits_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xsim.dir/tb_driver_7seg_4digits_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Mar 23 19:30:33 2021. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.2/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Tue Mar 23 19:30:33 2021... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1173.063 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_driver_7seg_4digits_behav -key {Behavioral:sim_1:Functional:tb_driver_7seg_4digits} -tclbatch {tb_driver_7seg_4digits.tcl} -view {C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/06-display_driver/display_driver/tb_driver_7seg_4digits_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: open_wave_config C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/06-display_driver/display_driver/tb_driver_7seg_4digits_behav.wcfg 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_DELAYED_MODEL_EVENT
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 79 MB. Current time: 3/23/21, 7:30:36 PM CET
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source tb_driver_7seg_4digits.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: Note: Stimulus process started Time: 0 ps  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd Note: Stimulus process finished Time: 600 ns  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/06-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_driver_7seg_4digits_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 1173.063 ; gain = 0.000 
+// 'd' command handler elapsed time: 12 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 80 MB. Current time: 3/23/21, 7:30:39 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 81 MB. Current time: 3/23/21, 7:30:40 PM CET
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // E
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+floatFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_behav.wcfg"); // az
+// RDIResource.RDIViews_WAVEFORM_VIEWER: tb_driver_7seg_4digits_behav.wcfg: float view
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 81 MB. Current time: 3/23/21, 7:30:47 PM CET
+maximizeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_behav.wcfg"); // az
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // E
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:30:57 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:30:59 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 93 MB. Current time: 3/23/21, 7:30:59 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:30:59 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:30:59 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:30:59 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:30:59 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:30:59 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:31:00 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:31:00 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 96 MB. Current time: 3/23/21, 7:31:00 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:31:00 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:31:00 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 104 MB. Current time: 3/23/21, 7:31:02 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:31:02 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:31:02 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:31:02 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:31:03 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 90 MB. Current time: 3/23/21, 7:31:03 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 107 MB. Current time: 3/23/21, 7:31:03 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:31:03 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:31:03 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 83 MB. Current time: 3/23/21, 7:31:03 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 109 MB. Current time: 3/23/21, 7:31:03 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 15 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // E
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:12 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 103 MB. Current time: 3/23/21, 7:31:16 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 103 MB. Current time: 3/23/21, 7:31:16 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:16 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:16 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 88 MB. Current time: 3/23/21, 7:31:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 102 MB. Current time: 3/23/21, 7:31:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 115 MB. Current time: 3/23/21, 7:31:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 85 MB. Current time: 3/23/21, 7:31:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 103 MB. Current time: 3/23/21, 7:31:17 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 96 MB. Current time: 3/23/21, 7:31:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:18 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 11 seconds
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, s_seg[6:0]]", 8); // a
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:31:23 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, s_dig[3:0]]", 16); // a
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 97 MB. Current time: 3/23/21, 7:32:10 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 116 MB. Current time: 3/23/21, 7:32:10 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 104 MB. Current time: 3/23/21, 7:32:10 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:32:10 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 85 MB. Current time: 3/23/21, 7:32:10 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 96 MB. Current time: 3/23/21, 7:32:10 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:32:11 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 90 MB. Current time: 3/23/21, 7:32:11 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:32:11 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:32:11 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 88 MB. Current time: 3/23/21, 7:32:11 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 82 MB. Current time: 3/23/21, 7:32:11 PM CET
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// RDIResource.RDIViews_WAVEFORM_VIEWER: tb_driver_7seg_4digits_behav.wcfg: close view
+// Elapsed time: 50 seconds
+closeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_behav.wcfg"); // az
+dockFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_behav.wcfg"); // az
+maximizeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_behav.wcfg"); // az
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_behav.wcfg"); // w
+unMinimizeFrame(PAResourceOtoP.PAViews_TCL_CONSOLE, "Tcl Console"); // az
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - tb_driver_7seg_4digits", "DesignTask.SIMULATION");
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// c (cr): Save Simulation Sources: addNotify
+dismissDialog("Confirm Close"); // A
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: DG_GRAPH_STALE
+// bz (cr):  Close : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+dismissDialog("Save Simulation Sources"); // c
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bz
+// Elapsed time: 550 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "driver_7seg_4digits.vhd", 2); // m
+// Elapsed time: 430 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 0); // m
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_driver_7seg_4digits.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_driver_7seg_4digits.vhd", 1); // m
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "driver_7seg_4digits.vhd", 2); // m
+// Elapsed time: 14 seconds
+selectCodeEditor("driver_7seg_4digits.vhd", 76, 347); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 251, 346); // bP
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_driver_7seg_4digits.vhd", 1); // m
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "driver_7seg_4digits.vhd", 2); // m
+selectCodeEditor("driver_7seg_4digits.vhd", 67, 328); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 405, 375); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 102, 370); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 383, 402); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 305, 372); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 482, 368); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 324, 371); // bP
+selectCodeEditor("driver_7seg_4digits.vhd", 511, 371); // bP
