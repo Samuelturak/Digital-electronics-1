@@ -60,20 +60,20 @@ begin
             data0_i(1)  => SW(1),
             data0_i(0)  => SW(0),
         
-            data1_i(7)  => SW(7),
-            data1_i(6)  => SW(6),
-            data1_i(5)  => SW(5),
-            data1_i(4)  => SW(4),
+            data1_i(3)  => SW(7),
+            data1_i(2)  => SW(6),
+            data1_i(1)  => SW(5),
+            data1_i(0)  => SW(4),
         
-            data2_i(11)  => SW(11),
-            data2_i(10)  => SW(10),
-            data2_i(9)   => SW(9),
-            data2_i(8)   => SW(8),
+            data2_i(3)  => SW(11),
+            data2_i(2)  => SW(10),
+            data2_i(1)   => SW(9),
+            data2_i(0)   => SW(8),
         
-            data3_i(15)  => SW(15),
-            data3_i(14)  => SW(14),
-            data3_i(13)  => SW(13),
-            data3_i(12)  => SW(12),
+            data3_i(3)  => SW(15),
+            data3_i(2)  => SW(14),
+            data3_i(1)  => SW(13),
+            data3_i(0)  => SW(12),
         
             dig_o => AN(4-1 downto 0),
             

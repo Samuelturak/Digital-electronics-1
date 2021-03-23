@@ -1390,3 +1390,17 @@ dockFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_behav.wc
 // RDIResource.RDIViews_WAVEFORM_VIEWER: tb_driver_7seg_4digits_behav.wcfg: dock view
 // TclEventType: WAVEFORM_UPDATE_WAVEFORM
 // HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 87 MB. Current time: 3/23/21, 4:52:30 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 572 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 244, 855); // nWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 406, 855); // nWaveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 406, 855); // nWaveform: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 87 MB. Current time: 3/23/21, 5:02:03 PM CET
+floatFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_behav.wcfg"); // az
+// RDIResource.RDIViews_WAVEFORM_VIEWER: tb_driver_7seg_4digits_behav.wcfg: float view
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_driver_7seg_4digits_behav.wcfg"); // az
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 89 MB. Current time: 3/23/21, 5:02:08 PM CET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 195 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_driver_7seg_4digits.vhd", 1); // m
