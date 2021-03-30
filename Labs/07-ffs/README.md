@@ -181,3 +181,48 @@ p_arst_gen : process
 
 ![alt text](Images/D_latch.PNG)
 
+# 3. Flip-flops
+
+## VHDL processes:
+
+### p_d_ff_arst:
+
+```vhdl
+begin
+    p_d_ff_arst : process (clk, arst)
+        begin
+            if (arst = '1') then
+                q       <= '0';
+                q_bar   <= '1';
+                
+            elsif (rising_edge(clk)) then
+                q       <= d;
+                q_bar   <= not d;
+                
+            end if;
+            
+        end process  p_d_ff_arst;
+```
+
+### p_d_ff_rst:
+
+```vhdl
+begin
+    p_d_ff_rst : process (clk, rst)
+        begin
+            if (rst = '1' and rising_edge(clk)) then
+                q       <= '0';
+                q_bar   <= '1';
+                
+            elsif (rising_edge(clk)) then
+                q       <= d;
+                q_bar   <= not d;
+                
+            end if;
+            
+        end process  p_d_ff_rst;
+```
+
+### p_jk_ff_rst:
+
+### p_t_ff_rst:
