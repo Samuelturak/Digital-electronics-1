@@ -281,3 +281,18 @@ close_sim
 launch_simulation
 source tb_t_ff_rst.tcl
 close_sim
+launch_simulation
+source tb_t_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_t_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_t_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_t_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_t_ff_rst.tcl
+close_sim
