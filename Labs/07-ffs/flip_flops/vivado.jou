@@ -138,3 +138,10 @@ set_property source_mgmt_mode All [current_project]
 launch_simulation
 source tb_d_ff_arst.tcl
 update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source tb_d_ff_arst.tcl
+close_sim
+launch_simulation
+source tb_d_ff_arst.tcl
+close_sim
