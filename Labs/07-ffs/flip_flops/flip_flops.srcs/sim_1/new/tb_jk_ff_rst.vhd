@@ -75,11 +75,11 @@ uut_jk_ff_rst : entity work.jk_ff_rst
     p_rst_gen : process
         begin
             s_rst <= '0';
-            wait for 58 ns;
+            wait for 46 ns;
             
             -- Reset activated
             s_rst <= '1';
-            wait for 15 ns;
+            wait for 13 ns;
     
             s_rst <= '0';
             wait;
@@ -91,29 +91,45 @@ uut_jk_ff_rst : entity work.jk_ff_rst
         report "Stimulus process started" severity note;
         --d sequence
         wait for 10 ns;
-        s_j <= '1';
+        s_j <= '0';
+        s_k <= '0';
+        
+        wait for 20 ns;
+        s_j <= '0';
         s_k <= '1';
         
         wait for 10 ns;
-        s_j <= '1';
-        s_k <= '1';
+        assert(s_q = '0' and s_q_bar = '1')
+        report "asdad adad dad" severity error;
         
         wait for 10 ns;
         s_j <= '1';
-        s_k <= '1';
+        s_k <= '0';
         
-        wait for 10 ns;
+        wait for 17 ns;
+        assert(s_q = '1' and s_q_bar = '0')
+        report "asdad adad dad" severity error;
+        
+        wait for 3 ns;
         s_j <= '1';
         s_k <= '1';
         
-        wait for 10 ns;
+        wait for 20 ns;
+        s_j <= '0';
+        s_k <= '0';
+        
+        wait for 20 ns;
+        s_j <= '0';
+        s_k <= '1';
+        
+        wait for 20 ns;
+        s_j <= '1';
+        s_k <= '0';
+        
+        wait for 20 ns;
         s_j <= '1';
         s_k <= '1';
         
-        wait for 10 ns;
-        s_j <= '1';
-        s_k <= '1';
-        wait for 10 ns;
         --/d sequence
         
         report "Stimulus process finished" severity note;
@@ -121,4 +137,6 @@ uut_jk_ff_rst : entity work.jk_ff_rst
     end process p_stimulus;
     
 end Behavioral;
+
+        
 

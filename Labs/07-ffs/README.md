@@ -255,6 +255,26 @@ begin
 
 ### p_t_ff_rst:
 
+```vhdl
+begin
+            
+        if rising_edge(clk) then
+            if (rst = '1') then
+                s_q <= '0';
+            else
+                if (t = '0') then
+                    s_q <= s_q;
+                    
+                elsif (t = '1') then
+                    s_q <= not s_q;
+                
+                end if;
+            end if;
+        end if;
+        
+    end process  p_t_ff_rst;
+```
+
 ## VHDL clock, reset and stimulus processes from the testbench files:
 
 ### tb_d_ff_arst:
@@ -386,4 +406,156 @@ p_clk_gen : process
 
 ### tb_jk_ff_rst:
 
+```vhdl
+
+p_clk_gen : process
+        begin
+            while now < 750 ns loop         -- 75 periods of 100MHz clock
+                s_clk_100MHz <= '0';
+                wait for c_CLK_100MHZ_PERIOD / 2;
+                s_clk_100MHz <= '1';
+                wait for c_CLK_100MHZ_PERIOD / 2;
+            end loop;
+            wait;
+        end process p_clk_gen;
+
+
+    p_rst_gen : process
+        begin
+            s_rst <= '0';
+            wait for 46 ns;
+            
+            -- Reset activated
+            s_rst <= '1';
+            wait for 13 ns;
+    
+            s_rst <= '0';
+            wait;
+        end process p_rst_gen;
+    
+    
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+        --d sequence
+        wait for 10 ns;
+        s_j <= '0';
+        s_k <= '0';
+        
+        wait for 20 ns;
+        s_j <= '0';
+        s_k <= '1';
+        
+        wait for 10 ns;
+        assert(s_q = '0' and s_q_bar = '1')
+        report "asdad adad dad" severity error;
+        
+        wait for 10 ns;
+        s_j <= '1';
+        s_k <= '0';
+        
+        wait for 17 ns;
+        assert(s_q = '1' and s_q_bar = '0')
+        report "asdad adad dad" severity error;
+        
+        wait for 3 ns;
+        s_j <= '1';
+        s_k <= '1';
+        
+        wait for 20 ns;
+        s_j <= '0';
+        s_k <= '0';
+        
+        wait for 20 ns;
+        s_j <= '0';
+        s_k <= '1';
+        
+        wait for 20 ns;
+        s_j <= '1';
+        s_k <= '0';
+        
+        wait for 20 ns;
+        s_j <= '1';
+        s_k <= '1';
+        
+        --/d sequence
+        
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+```
+
 ### tb_t_ff_rst:
+
+```vhdl
+p_clk_gen : process
+        begin
+            while now < 750 ns loop         -- 75 periods of 100MHz clock
+                s_clk_100MHz <= '0';
+                wait for c_CLK_100MHZ_PERIOD / 2;
+                s_clk_100MHz <= '1';
+                wait for c_CLK_100MHZ_PERIOD / 2;
+            end loop;
+            wait;
+        end process p_clk_gen;
+
+
+    p_rst_gen : process
+        begin
+            s_rst <= '0';
+            wait for 10 ns;
+            
+            -- Reset activated
+            s_rst <= '1';
+            wait for 13 ns;
+    
+            s_rst <= '0';
+            wait;
+        end process p_rst_gen;
+    
+    
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+        --d sequence
+        wait for 20 ns;
+        s_t <= '0';
+        
+        wait for 20 ns;
+        s_t <= '1';
+        
+        wait for 20 ns;
+        s_t <= '0';
+        
+        wait for 20 ns;
+        s_t <= '1';
+        
+        wait for 20 ns;
+        s_t <= '0';
+        
+        wait for 20 ns;
+        s_t <= '1';
+        
+        --/d sequence
+        
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+```
+## Screenshots:
+
+### d_ff_arst
+
+![alt text](Images/D_ff_arst.PNG)
+
+### d_ff_rst:
+
+![alt text](Images/D_ff_rst.PNG)
+
+### jk_ff_rst:
+
+![alt text](Images/D_ff_jk.PNG)
+
+### t_ff_rst:
+
+![alt text](Images/D_t_ff.PNG)

@@ -61,7 +61,7 @@ begin
                     s_q <= '0';
                     
                 elsif (j = '1' and k = '0') then
-                s_q <= '1';
+                    s_q <= '1';
                 
                 elsif (j = '1' and k = '1') then 
                     s_q <= not s_q;

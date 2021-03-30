@@ -177,3 +177,107 @@ set_property source_mgmt_mode All [current_project]
 update_compile_order -fileset sim_1
 launch_simulation
 source tb_d_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_d_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_d_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_d_ff_rst.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top jk_ff_rst [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source jk_ff_rst.tcl
+close_sim
+launch_simulation
+source jk_ff_rst.tcl
+close_sim
+launch_simulation
+source jk_ff_rst.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_jk_ff_rst [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top jk_ff_rst [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_jk_ff_rst.tcl
+close_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_t_ff_rst.vhd w ]
+add_files -fileset sim_1 C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_t_ff_rst.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_t_ff_rst [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top t_ff_rst [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_t_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_t_ff_rst.tcl
+close_sim
