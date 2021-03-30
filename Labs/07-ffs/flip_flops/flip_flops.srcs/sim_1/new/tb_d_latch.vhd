@@ -38,9 +38,9 @@ end tb_d_latch;
 architecture Behavioral of tb_d_latch is
     signal s_en     : std_logic;
     signal s_arst   : std_logic;
+    signal s_d      : std_logic;
     signal s_q      : std_logic;
     signal s_q_bar  : std_logic;
-    signal s_d      : std_logic;
     
 begin
 
@@ -49,9 +49,10 @@ begin
             --- WRITE YOUR CODE HERE
          en     => s_en,
          arst   => s_arst,
+         d      => s_d,
          q      => s_q,
-         q_bar  => s_q_bar,
-         d      => s_d
+         q_bar  => s_q_bar
+         
         );
    
     p_arst_gen : process
@@ -64,8 +65,15 @@ begin
         wait for 53 ns;
 
         s_arst <= '0';
+        wait for 162 ns;
+        
+        s_arst <= '1';
+        wait for 37 ns;
+        
+        s_arst <= '0';
         wait;
-    end process p_arst_gen;
+        
+        end process p_arst_gen;
     
     
        --------------------------------------------------------------------
@@ -98,7 +106,12 @@ begin
         --d sequence
         wait for 10 ns;
         s_d <= '1';
-        wait for 10 ns;
+        
+        wait for 5 ns;
+        assert(s_q = '1' and s_q_bar = '0')
+        report "asdad adad dad" severity error;
+        
+        wait for 5 ns;
         s_d <= '0';
         wait for 10 ns;
         s_d <= '1';
@@ -131,12 +144,12 @@ begin
         
         s_en <= '1';
         
-        wait for 3 ns;
+        wait for 5 ns;
         assert(s_q = '0' and s_q_bar = '1')
         report "asdad adad dad" severity error;
         
         --d sequence
-        wait for 10 ns;
+        wait for 5 ns;
         s_d <= '1';
         wait for 10 ns;
         s_d <= '0';
