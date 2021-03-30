@@ -91,10 +91,18 @@ uut_jk_ff_rst : entity work.t_ff_rst
         wait for 20 ns;
         s_t <= '0';
         
-        wait for 20 ns;
+        wait for 10 ns;
+        assert(s_q = '0' and s_q_bar = '1')
+        report "asdad adad dad" severity error;
+        
+        wait for 10 ns;
         s_t <= '1';
         
-        wait for 20 ns;
+        wait for 10 ns;
+        assert(s_q = '1' and s_q_bar = '0')
+        report "asdad adad dad" severity error;
+        
+        wait for 10 ns;
         s_t <= '0';
         
         wait for 20 ns;

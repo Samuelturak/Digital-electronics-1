@@ -489,6 +489,7 @@ p_clk_gen : process
 
 ```vhdl
 p_clk_gen : process
+         p_clk_gen : process
         begin
             while now < 750 ns loop         -- 75 periods of 100MHz clock
                 s_clk_100MHz <= '0';
@@ -521,10 +522,18 @@ p_clk_gen : process
         wait for 20 ns;
         s_t <= '0';
         
-        wait for 20 ns;
+        wait for 10 ns;
+        assert(s_q = '0' and s_q_bar = '1')
+        report "asdad adad dad" severity error;
+        
+        wait for 10 ns;
         s_t <= '1';
         
-        wait for 20 ns;
+        wait for 10 ns;
+        assert(s_q = '1' and s_q_bar = '0')
+        report "asdad adad dad" severity error;
+        
+        wait for 10 ns;
         s_t <= '0';
         
         wait for 20 ns;
