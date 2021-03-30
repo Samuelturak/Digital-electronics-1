@@ -568,3 +568,8 @@ p_clk_gen : process
 ### t_ff_rst:
 
 ![alt text](Images/D_t_ff.PNG)
+
+# 4. Shift register:
+
+![alt text](Images/scheme.jpg)
+

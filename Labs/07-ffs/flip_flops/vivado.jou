@@ -296,3 +296,25 @@ close_sim
 launch_simulation
 source tb_t_ff_rst.tcl
 close_sim
+launch_simulation
+source tb_t_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_t_ff_rst.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_d_latch [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top d_latch [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_d_latch.tcl
+close_sim
