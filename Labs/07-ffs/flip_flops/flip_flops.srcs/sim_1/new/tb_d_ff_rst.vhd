@@ -89,7 +89,12 @@ begin
             --d sequence
             wait for 10 ns;
             s_d <= '1';
-            wait for 10 ns;
+            
+            wait for 8 ns;
+            assert(s_q = '1' and s_q_bar = '0')
+            report "asdad adad dad" severity error;
+            
+            wait for 2 ns;
             s_d <= '0';
             wait for 10 ns;
             s_d <= '1';
@@ -101,7 +106,12 @@ begin
             s_d <= '0';
             wait for 10 ns;
             s_d <= '1';
-            wait for 10 ns;
+            
+            wait for 3 ns;
+            assert(s_q = '0' and s_q_bar = '1')
+            report "asdad adad dad" severity error;
+            
+            wait for 7 ns;
             s_d <= '0';           
             --/d sequence
             

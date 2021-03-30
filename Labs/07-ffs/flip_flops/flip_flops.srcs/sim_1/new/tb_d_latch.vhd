@@ -36,6 +36,10 @@ entity tb_d_latch is
 end tb_d_latch;
 
 architecture Behavioral of tb_d_latch is
+
+    constant c_CLK_100MHZ_PERIOD : time    := 10 ns;
+     
+    signal s_clk_100MHz     : std_logic; 
     signal s_en     : std_logic;
     signal s_arst   : std_logic;
     signal s_d      : std_logic;
@@ -47,6 +51,7 @@ begin
     uut_d_latch : entity work.d_latch
     port map(
             --- WRITE YOUR CODE HERE
+         clk    => s_clk_100MHz,
          en     => s_en,
          arst   => s_arst,
          d      => s_d,
@@ -55,6 +60,17 @@ begin
          
         );
    
+   p_clk_gen : process
+        begin
+            while now < 750 ns loop         -- 75 periods of 100MHz clock
+                s_clk_100MHz <= '0';
+                wait for c_CLK_100MHZ_PERIOD / 2;
+                s_clk_100MHz <= '1';
+                wait for c_CLK_100MHZ_PERIOD / 2;
+            end loop;
+            wait;
+        end process p_clk_gen;
+        
     p_arst_gen : process
     begin
         s_arst <= '0';
