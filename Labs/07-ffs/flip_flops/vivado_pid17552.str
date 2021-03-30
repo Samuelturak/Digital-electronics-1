@@ -120,3 +120,4 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sourc
 selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, d_latch(Behavioral) (d_latch.vhd)]", 1, false, false, false, false, false, true); // D - Double Click
 expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // D
 // [GUI Memory]: 132 MB (+617kb) [00:15:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,023 MB. GUI used memory: 76 MB. Current time: 3/30/21, 11:59:47 AM CEST
