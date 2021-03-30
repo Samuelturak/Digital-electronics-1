@@ -4,7 +4,7 @@
 
 ![alt text](Images/D.gif)
 
-| **D** | **Qn** | **Q(n+1)** | **Comments** |
+| **d** | **Qn** | **Q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 ||
 | 0 | 1 |||
@@ -15,7 +15,7 @@
 
 ![alt text](Images/JK.gif)
 
-| **K** | **K** | **Qn** | **Q(n+1)** | **Comments** |
+| **j** | **k** | **Qn** | **Q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 0 | No change |
 | 0 | 0 | 1 | 1 | No change |
@@ -30,7 +30,7 @@
 
 ![alt text](Images/CodeCogsEqn.gif)
 
-| **D** | **Qn** | **Q(n+1)** | **Comments** |
+| **t** | **Qn** | **Q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: |
 | 0 | 0 |
 | 0 | 1 |
