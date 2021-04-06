@@ -116,3 +116,24 @@ dismissDialog("Open Project"); // bz
 // [GUI Memory]: 143 MB (+13325kb) [00:03:18]
 // HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 74 MB. Current time: 4/6/21, 11:33:16 AM CEST
 // HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 65 MB. Current time: 4/6/21, 12:03:16 PM CEST
+// Elapsed time: 4237 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // D
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, tlc.vhd]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, tlc.vhd]", 2, false, false, false, false, false, true); // D - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 5); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_tlc(testbench) (tb_tlc.vhd)]", 7, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_tlc(testbench) (tb_tlc.vhd)]", 7, true, false, false, false, false, true); // D - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tlc.vhd", 0); // m
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 70 MB. Current time: 4/6/21, 12:33:16 PM CEST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 520 ms to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 714 ms to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 1151ms to process. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1159 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 69 MB. Current time: 4/6/21, 1:03:17 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 68 MB. Current time: 4/6/21, 1:33:17 PM CEST

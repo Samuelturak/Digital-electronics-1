@@ -17,4 +17,4 @@
 
 # 2. Traffic light controller
 
-![alt text](Images/state_diagram)
+![alt text](Images/state_diagram.png)
