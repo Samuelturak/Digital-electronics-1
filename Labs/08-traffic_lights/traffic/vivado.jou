@@ -12,3 +12,13 @@
 start_gui
 open_project C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/08-traffic_lights/traffic/traffic.xpr
 update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_tlc.tcl
+close_sim
+set_property -name {xsim.simulate.runtime} -value {10000ns} -objects [get_filesets sim_1]
+launch_simulation
+source tb_tlc.tcl
+current_wave_config {Untitled 2}
+add_wave {{/tb_tlc/uut_tlc/s_state}} 
+relaunch_sim

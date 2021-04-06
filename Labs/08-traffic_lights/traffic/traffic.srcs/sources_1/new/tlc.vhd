@@ -111,10 +111,46 @@ begin
                         if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
                         else
-                            s
-                        
-
-                        -- WRITE YOUR CODE HERE
+                            s_state <= WEST_WAIT;
+                            s_cnt <= c_ZERO;
+                         end if;
+                    
+                    when WEST_WAIT =>
+                    
+                       if (s_cnt < c_DELAY_2SEC) then
+                           s_cnt <= s_cnt + 1;
+                       else
+                           s_state <= STOP2;
+                           s_cnt <= c_ZERO;
+                         end if;
+                           
+                    when STOP2 =>
+                    
+                       if (s_cnt < c_DELAY_1SEC) then
+                           s_cnt <= s_cnt + 1;
+                       else
+                           s_state <= SOUTH_GO;
+                           s_cnt <= c_ZERO;
+                         end if;
+                         
+                   when SOUTH_GO =>
+                    
+                       if (s_cnt < c_DELAY_4SEC) then
+                           s_cnt <= s_cnt + 1;
+                       else
+                           s_state <= SOUTH_WAIT;
+                           s_cnt <= c_ZERO;
+                         end if;
+                         
+                   when SOUTH_WAIT =>
+                    
+                       if (s_cnt < c_DELAY_2SEC) then
+                           s_cnt <= s_cnt + 1;
+                       else
+                           s_state <= STOP1;
+                           s_cnt <= c_ZERO;
+                         end if;      
+                   
 
 
                     -- It is a good programming practice to use the 
@@ -141,6 +177,20 @@ begin
                 south_o <= "100";   -- Red (RGB = 100)
                 west_o  <= "100";   -- Red (RGB = 100)
             when WEST_GO =>
+                south_o <= "100";   -- Red (RGB = 100)
+                west_o  <= "010";   -- Red (RGB = 100)
+            when WEST_WAIT =>
+                south_o <= "100";   -- Red (RGB = 100)
+                west_o  <= "110";   -- Red (RGB = 100)
+            when STOP2 =>
+                south_o <= "100";   -- Red (RGB = 100)
+                west_o  <= "100";   -- Red (RGB = 100)
+            when SOUTH_GO =>
+                south_o <= "010";   -- Red (RGB = 100)
+                west_o  <= "100";   -- Red (RGB = 100)
+            when SOUTH_WAIT =>
+                south_o <= "110";   -- Red (RGB = 100)
+                west_o  <= "100";   -- Red (RGB = 100)
                 
 
 
