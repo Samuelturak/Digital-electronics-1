@@ -164,6 +164,8 @@ p_output_fsm : process(s_state)
 
 ## State Diagram
 
+![alt text](Images/state_diagram2)
+
 ## sequential process:
 
 ```vhdl
