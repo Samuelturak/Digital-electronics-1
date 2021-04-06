@@ -2005,3 +2005,116 @@ selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 431, 337); // nWavefor
 dockFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2*"); // az
 // RDIResource.RDIViews_WAVEFORM_VIEWER: Untitled 2*: dock view
 // TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 80 MB. Current time: 4/6/21, 3:19:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 79 MB. Current time: 4/6/21, 3:49:09 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 79 MB. Current time: 4/6/21, 4:19:09 PM CEST
+// Elapsed time: 5965 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - tb_tlc", "DesignTask.SIMULATION");
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+selectButton("OptionPane.button", "Save"); // JButton
+dismissFileChooser();
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - tb_tlc", "DesignTask.SIMULATION");
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+selectButton("OptionPane.button", "Save"); // JButton
+// Elapsed time: 10 seconds
+dismissFileChooser();
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - tb_tlc", "DesignTask.SIMULATION");
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a
+dismissDialog("Confirm Close"); // A
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - tb_tlc", "DesignTask.SIMULATION");
+// A (cr): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Confirm Close"); // A
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// bz (cr):  Close : addNotify
+selectButton("OptionPane.button", "Discard"); // JButton
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close"); // bz
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// f (cr): New Project: addNotify
+selectButton("CANCEL", "Cancel"); // JButton
+dismissDialog("New Project"); // f
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // ah
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ac
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, (String) null); // aa
+// Elapsed time: 37 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "smart_tlc"); // aa
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+dismissDialog("Create Source File"); // F
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 49 seconds
+dismissDialog("Add Sources"); // c
+// Tcl Message: close [ open C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/08-traffic_lights/traffic/traffic.srcs/sources_1/new/smart_tlc.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/08-traffic_lights/traffic/traffic.srcs/sources_1/new/smart_tlc.vhd 
+// I (cr): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton
+dismissDialog("Define Module"); // I
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smart_tlc(Behavioral) (smart_tlc.vhd)]", 2, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, smart_tlc(Behavioral) (smart_tlc.vhd)]", 2, false, false, false, false, false, true); // D - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tlc.vhd", 0); // m
+selectCodeEditor("tlc.vhd", 463, 120); // bP
+typeControlKey((HResource) null, "tlc.vhd", 'c'); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "smart_tlc.vhd", 2); // m
+selectCodeEditor("smart_tlc.vhd", 326, 239); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tlc.vhd", 0); // m
+selectCodeEditor("tlc.vhd", 287, 183); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "smart_tlc.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tlc.vhd", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "smart_tlc.vhd", 2); // m
+selectCodeEditor("smart_tlc.vhd", 417, 241); // bP
+typeControlKey((HResource) null, "smart_tlc.vhd", 'v'); // bP
+selectCodeEditor("smart_tlc.vhd", 100, 136); // bP
+selectCodeEditor("smart_tlc.vhd", 245, 239); // bP
+selectCodeEditor("smart_tlc.vhd", 319, 427); // bP
+selectCodeEditor("smart_tlc.vhd", 61, 225); // bP
+selectCodeEditor("smart_tlc.vhd", 289, 307); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 198 seconds
+selectCodeEditor("smart_tlc.vhd", 51, 98); // bP
+selectCodeEditor("smart_tlc.vhd", 166, 310); // bP
+selectCodeEditor("smart_tlc.vhd", 386, 311); // bP
+selectCodeEditor("smart_tlc.vhd", 376, 369); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 79 MB. Current time: 4/6/21, 4:49:09 PM CEST
+// Elapsed time: 1714 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tlc.vhd", 0); // m
+// Elapsed time: 13 seconds
+selectCodeEditor("tlc.vhd", 278, 329); // bP
+selectCodeEditor("tlc.vhd", 468, 339); // bP
+// Elapsed time: 620 seconds
+selectCodeEditor("tlc.vhd", 430, 355); // bP
+selectCodeEditor("tlc.vhd", 418, 377); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 79 MB. Current time: 4/6/21, 5:19:10 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 77 MB. Current time: 4/6/21, 5:49:10 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 77 MB. Current time: 4/6/21, 6:19:10 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 78 MB. Current time: 4/6/21, 6:49:11 PM CEST

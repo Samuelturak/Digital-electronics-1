@@ -22,3 +22,7 @@ source tb_tlc.tcl
 current_wave_config {Untitled 2}
 add_wave {{/tb_tlc/uut_tlc/s_state}} 
 relaunch_sim
+close_sim
+close [ open C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/08-traffic_lights/traffic/traffic.srcs/sources_1/new/smart_tlc.vhd w ]
+add_files C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/08-traffic_lights/traffic/traffic.srcs/sources_1/new/smart_tlc.vhd
+update_compile_order -fileset sources_1
