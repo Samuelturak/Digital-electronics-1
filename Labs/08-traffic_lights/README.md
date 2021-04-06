@@ -147,5 +147,5 @@ p_output_fsm : process(s_state)
 ```
 ## Screenshot:
 
-![alt text](Images/Graph1.png)
+![alt text](Images/Graph1.PNG)
 
