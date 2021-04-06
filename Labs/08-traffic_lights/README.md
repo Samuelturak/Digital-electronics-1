@@ -155,7 +155,6 @@ p_output_fsm : process(s_state)
 
 | **Current State** | **Direction South** | **Direction West** | **Delay** | **No cars 00** | **Car to west 01** | ** Car to south 10** | **11** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-
 | STOP1 | red | red | 1 sec | STOP | WEST_GO | SOUTH_GO | SOUTH_GO |
 | STOP2 | red | red | 1 sec | STOP | WEST_GO | SOUTH_GO | WEST_GO |
 | WEST_GO | red | green | 4 sec | WEST_GO | WEST_GO | WEST_WAIT | WEST_WAIT |
