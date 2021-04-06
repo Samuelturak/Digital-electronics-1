@@ -105,3 +105,14 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // [GUI Memory]: 118 MB (+6085kb) [00:00:09]
 // WARNING: HEventQueue.dispatchEvent() is taking  2537 ms.
 // Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 109 MB. Current time: 4/6/21, 11:03:11 AM CEST
+// Project name: traffic; location: C:/Users/samue/Documents/GitHub/Digital-electronics-1/Labs/08-traffic_lights/traffic; part: xc7a50ticsg324-1L
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 124 MB (+174kb) [00:01:33]
+// [GUI Memory]: 143 MB (+13325kb) [00:03:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 74 MB. Current time: 4/6/21, 11:33:16 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,024 MB. GUI used memory: 65 MB. Current time: 4/6/21, 12:03:16 PM CEST
