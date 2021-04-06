@@ -153,7 +153,7 @@ p_output_fsm : process(s_state)
 
 ## State Table
 
-| **Current State** | **Direction South** | **Direction West** | **Delay** | **No cars 00** | **Car to west 01** | ** Car to south 10** | **11** |
+| **Current State** | **Direction South** | **Direction West** | **Delay** | **00** | **01** | **10** | **11** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | STOP1 | red | red | 1 sec | STOP | WEST_GO | SOUTH_GO | SOUTH_GO |
 | STOP2 | red | red | 1 sec | STOP | WEST_GO | SOUTH_GO | WEST_GO |
