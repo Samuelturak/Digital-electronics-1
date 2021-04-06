@@ -30,7 +30,10 @@ entity smart_tlc is
         reset   : in  std_logic;
         -- Traffic lights (RGB LEDs) for two directions
         south_o : out std_logic_vector(3 - 1 downto 0);
-        west_o  : out std_logic_vector(3 - 1 downto 0)
+        west_o  : out std_logic_vector(3 - 1 downto 0);
+        
+        WEST_SENSOR   : std_logic;
+        SOUTH_SENSOR  : std_logic
     );
 end entity smart_tlc;
 
@@ -80,7 +83,7 @@ begin
     -- The sequential process with synchronous reset and clock_enable 
     -- entirely controls the s_state signal by CASE statement.
     --------------------------------------------------------------------
-    p_traffic_fsm : process(clk)
+    p_smart_traffic_fsm : process(clk)
     begin
         if rising_edge(clk) then
             if (reset = '1') then       -- Synchronous reset
@@ -99,28 +102,45 @@ begin
                         -- Count up to c_DELAY_1SEC
                         if (s_cnt < c_DELAY_1SEC) then
                             s_cnt <= s_cnt + 1;
-                        else
+                            
+                        elsif (WEST_SENSOR = '0' and SOUTH_SENSOR = '0') then
+                            s_state <= STOP1;
+                            s_cnt   <= c_ZERO;  
+                            
+                        elsif (WEST_SENSOR = '1' and SOUTH_SENSOR = '0') then
                             -- Move to the next state
                             s_state <= WEST_GO;
                             -- Reset local counter value
                             s_cnt   <= c_ZERO;
+                            
+                        else
+                            s_state <= SOUTH_GO;
+                            s_cnt   <= c_ZERO;
+                            
                         end if;
 
                     when WEST_GO =>
                     
                         if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
-                        else
+                            
+                        elsif (WEST_SENSOR = '0') then
+                        
+                            s_state <= WEST_GO;
+                            s_cnt <= c_ZERO;
+                            
+                          else
                             s_state <= WEST_WAIT;
                             s_cnt <= c_ZERO;
-                         end if;
-                    
+                            
+                          end if;
+                            
                     when WEST_WAIT =>
                     
                        if (s_cnt < c_DELAY_2SEC) then
                            s_cnt <= s_cnt + 1;
                        else
-                           s_state <= STOP2;
+                           s_state <= STOP1;
                            s_cnt <= c_ZERO;
                          end if;
                            
@@ -128,26 +148,42 @@ begin
                     
                        if (s_cnt < c_DELAY_1SEC) then
                            s_cnt <= s_cnt + 1;
-                       else
+                           
+                       elsif (WEST_SENSOR = '1') then
+                           s_state <= WEST_GO;
+                           s_cnt <= c_ZERO;
+                           
+                       elsif (SOUTH_SENSOR = '0' and WEST_SENSOR = '1') then
                            s_state <= SOUTH_GO;
                            s_cnt <= c_ZERO;
-                         end if;
+                           
+                       else
+                           s_state <= STOP2;
+                           s_cnt <= c_ZERO;
+                           
+                       end if;
                          
                    when SOUTH_GO =>
                     
                        if (s_cnt < c_DELAY_4SEC) then
                            s_cnt <= s_cnt + 1;
+                           
+                       elsif (WEST_SENSOR = '0') then
+                           s_state <= SOUTH_GO;
+                           s_cnt <= c_ZERO;
+                           
                        else
                            s_state <= SOUTH_WAIT;
                            s_cnt <= c_ZERO;
-                         end if;
+                           
+                       end if;
                          
                    when SOUTH_WAIT =>
                     
                        if (s_cnt < c_DELAY_2SEC) then
                            s_cnt <= s_cnt + 1;
                        else
-                           s_state <= STOP1;
+                           s_state <= STOP2;
                            s_cnt <= c_ZERO;
                          end if;      
                    
@@ -162,7 +198,7 @@ begin
                 end case;
             end if; -- Synchronous reset
         end if; -- Rising edge
-    end process p_traffic_fsm;
+    end process p_smart_traffic_fsm;
 
     --------------------------------------------------------------------
     -- p_output_fsm:
