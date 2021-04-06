@@ -155,8 +155,8 @@ p_output_fsm : process(s_state)
 
 | **Current State** | **Direction South** | **Direction West** | **Delay** | **00** | **01** | **10** | **11** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| STOP1 | red | red | 1 sec | STOP | WEST_GO | SOUTH_GO | SOUTH_GO |
-| STOP2 | red | red | 1 sec | STOP | WEST_GO | SOUTH_GO | WEST_GO |
+| STOP1 | red | red | 1 sec | STOP1 | WEST_GO | SOUTH_GO | SOUTH_GO |
+| STOP2 | red | red | 1 sec | STOP2 | WEST_GO | SOUTH_GO | WEST_GO |
 | WEST_GO | red | green | 4 sec | WEST_GO | WEST_GO | WEST_WAIT | WEST_WAIT |
 | WEST_WAIT | red | yellow | 2 sec | STOP1 | STOP1 | STOP1 | STOP1 |
 | SOUTH_GO | green | red | 4 sec | SOUTH_GO | SOUTH_WAIT | SOUTH_GO | SOUTH_WAIT |
